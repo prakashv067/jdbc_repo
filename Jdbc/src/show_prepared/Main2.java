@@ -18,6 +18,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	preparedStatement.setString(1, "Marina");
 	
 	preparedStatement.executeUpdate();
+	System.out.println("data updated");
 	
 	connection.close();
 }

@@ -18,6 +18,7 @@ public static void main(String[] args) throws ClassNotFoundException, SQLExcepti
 	preparedStatement.setString(2, "sweaty");
 	
 	preparedStatement.executeUpdate();
+	System.out.println("data inserted");
 	
 	connection.close();
 }
